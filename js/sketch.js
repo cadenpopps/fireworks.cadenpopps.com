@@ -1,5 +1,5 @@
-var fireworks = new Array(20);
-var particles = new Array(200);
+var fireworks = new Array(18);
+var particles = new Array(150);
 var obstacles = [];
 var alive;
 var score;
@@ -14,7 +14,7 @@ const FIREWORK_SPEED = 5;
 const PARTICLE_SPEED = 15;
 const FIREWORK_SPAWN_DISTANCE = 350;
 const SPAWN_RATE = .15;
-const MAX_PARTICLES = 15;
+const MAX_PARTICLES = 12;
 
 var currentFireworkSpeed = FIREWORK_SPEED;
 
